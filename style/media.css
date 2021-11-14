@@ -1,0 +1,107 @@
+@media (prefers-color-scheme: light) {
+    :root {
+        --body: #151437;
+        --text: #FFFFFF;
+        --dots: #EBEBEB;
+        --btnbg: #7177F1;
+
+    }
+
+    .logo::after {
+        content: url(../images/logo_2.png);
+    }
+
+    body {
+        background-color: var(--body);
+    }
+}
+
+@media(max-width:1200px) {
+    .portfolio::after {
+        display: none;
+    }
+    .tab_desc{
+        margin-top: 15px;
+  
+    }
+}
+
+@media(max-width:768px) {
+    .acardion_img {
+        width: 100%;
+    }
+}
+
+@media (max-width:550px) {
+    .tab_desc-text{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .carusel__img {
+        height: 80%;
+    }
+
+    .intro_title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .intro_btn {
+        width: 80%;
+    }
+
+    .intro_icon-html,
+    .intro_icon-css,
+    .intro_icon-bootstrap {
+        font-size: 70px;
+    }
+}
+
+@media(max-width:480px) {
+    .work_info-item {
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .work_info-item::after {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+        top: -10px;
+        right: -10px;
+    }
+
+    .work_title {
+        font-size: 30px;
+    }
+
+    .work_text {
+        font-size: 16px;
+        line-height: 19px;
+        text-align: justify;
+    }
+
+    .work_btn {
+        margin: 0 auto;
+    }
+
+    .work_descr {
+        padding: 15px;
+    }
+}
+
+@media(max-width:400px) {
+    .capabilites {
+        margin-top: 30px;
+    }
+
+    .cap_title {
+        font-size: 30px;
+
+    }
+
+    .accordion {
+        margin-top: 0;
+    }
+}
